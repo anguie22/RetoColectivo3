@@ -28,7 +28,15 @@ public class RestauranteElCielo {
                 } else if(menuOption == 3){
 
 
-                } else if(menuOption == 4){
+                } else if (menuOption == 4) {
+                    System.out.println("📋 Lista de platos registrados:");
+                    if (platos.isEmpty()) {
+                        System.out.println("No hay platos registrados.");
+                    } else {
+                        for (Plato p : platos) {
+                            System.out.println(p);
+                        }
+                    }
 
 
                 } else if(menuOption == 5){
