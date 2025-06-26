@@ -29,7 +29,9 @@ public class RestauranteElCielo {
 
 
                 } else if(menuOption == 4){
-
+                    System.out.println("📋 Lista de platos registrados:");
+                    for (int i = 0; i < contadorPlatos; i++) {
+                        System.out.println("Plato #" + (i + 1) + ": " + platos[i]);
 
                 } else if(menuOption == 5){
 
